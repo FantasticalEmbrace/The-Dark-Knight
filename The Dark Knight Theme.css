@@ -1,7 +1,67 @@
-a:hover {color: rgba(255, 255, 0, 0.573);}  
-body {background-color: black;
-      background-attachment: fixed;
-      background-position: right;
-      background-size:cover;}
-.FontColorBlue {color: rgb(52, 110, 197);: ;}
-.table {background-color: black;}
+a:hover                {color: rgba(255, 255, 0, 0.573);}  
+body                   {background-color: black;
+                        background-attachment: fixed;
+                        background-position: right;
+                        background-size:cover;
+                        background-image: url(Images/Duo\ Batman\ Design.png);}
+
+.rain                  {display:block;
+                        margin:auto;
+                        width:750px;}
+
+
+.FontColorBlue         {color: rgb(52, 110, 197);}
+.table                 {background-color: black}
+                        
+.outline    {outline: solid 1px black;}
+
+.container            {position: relative;
+                       text-align: center;
+                       color: white;}
+
+.alleyway             {height: 75%;
+                        width: 25%;}
+
+.copy                  {color: white;}
+
+.friendsandfoes        {padding: 2px; color: rgb(5, 79, 190); 
+                        font-family: Franklin Gothic Medium;}
+
+.text                  {color: white; 
+                        font-family: Franklin Gothic Medium;
+                        font-size:20px;
+                        position: absolute;
+                        text-align: center;
+                        bottom: 50%;}
+
+.logo                   {text-align: center;}
+
+
+                                    /* Bruce Wayne */
+
+.bruce                  {color: white; 
+                         font-family: Franklin Gothic Medium;
+                         font-size:50px;
+                         text-align: center;
+                         position: relative;
+                         bottom: 800px}
+
+                                    /* Alfred */
+
+.alfred-text             {color: white; 
+                          font-family: Franklin Gothic Medium;
+                          font-size:20px;
+                          text-align: center;
+                          top: 250px;}
+
+.alfred                  {float:left}
+
+.alfred-title            {padding-left: 550px;
+                          color: white; 
+                          float:left;
+                          margin-bottom: 75px;
+                          font-family: franklin gothic medium;
+                          font-size: 2vw;}
+
+.back-arrow             {align-items: center;
+                         justify-content: center}                         
