@@ -1,67 +1,162 @@
-a:hover                {color: rgba(255, 255, 0, 0.573);}  
-body                   {background-color: black;
-                        background-attachment: fixed;
-                        background-position: right;
-                        background-size:cover;
-                        background-image: url(Images/Duo\ Batman\ Design.png);}
+a:link                                  {text-decoration: none;}  
 
-.rain                  {display:block;
-                        margin:auto;
-                        width:750px;}
+a:visited                               {color:inherit ;}
 
+a:hover                                 {color: rgb(254, 254, 254);}
 
-.FontColorBlue         {color: rgb(52, 110, 197);}
-.table                 {background-color: black}
+@font-face                              {font-family: "Batman Forever";
+                                         src: url("C:/Users/Drvia/Downloads/Fonts/batman_forever/batmfa__.ttf");}
+
+#batswoop                               {height: 800px; width: 1450px;}
+
+.container                              {position: relative;}                        
+
+.logo                                   {width: 750px; display: block; 
+                                         position:absolute;
+                                         bottom:100px;
+                                         left:400px}
+
+#backtotop                              {color: white;}
+
+#table                                  {border: 1px solid blue; 
+                                         width: 100%; background-color: #000000;
+                                         font-size: 25px;}
                         
-.outline    {outline: solid 1px black;}
+#headings                               {text-align: center;
+                                         color:rgb(52, 110, 197);
+                                         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                         text-decoration: underline;
+                                         font-size: 30px;}
 
-.container            {position: relative;
-                       text-align: center;
-                       color: white;}
+#grid .image-size                       {display: grid;
+                                         width: 200px; height: 250px}
 
-.alleyway             {height: 75%;
-                        width: 25%;}
+.friendsandfoes                         {padding: 25px; color: rgb(5, 79, 190); 
+                                         font-family: Franklin Gothic Medium;
+                                         font-size: 75px; background-color: rgba(blue, blue, blue, 0.5)}
 
-.copy                  {color: white;}
+td                                      {border:1px solid blue;}
 
-.friendsandfoes        {padding: 2px; color: rgb(5, 79, 190); 
-                        font-family: Franklin Gothic Medium;}
+.item                                   {box-sizing: border-box;
+                                         border: solid  red 1px; 
+                                         color: white;}                        
 
-.text                  {color: white; 
-                        font-family: Franklin Gothic Medium;
-                        font-size:20px;
-                        position: absolute;
-                        text-align: center;
-                        bottom: 50%;}
+.group1                                 {color: rgb(217, 255, 0);
+                                         background-color: #151a1e; font-family: "Batman Forever"}
 
-.logo                   {text-align: center;}
+.group2                                 {color: rgb(52, 110, 197); font-family: "Batman Forever"}
+
+body                                    {background-color: black;
+                                         margin: 0;
+                                         padding: 0;
+                                         border: 0;
+                                         outline:0}
+
+.rain                                   {display:block;
+                                         margin:auto;
+                                         width:750px;}
+
+.tribute                                {display: block;
+                                         margin: auto;
+                                         width: 750px;
+                                         block-size: 500px;}
+                        
+.outline                                {outline: solid 1px black;}
+
+.copy                                   {color: white;}
+
+.text                                   {color: white; 
+                                         font-family: Franklin Gothic Medium;
+                                         font-size:20px;
+                                         position: absolute;
+                                         text-align: center;
+                                         bottom: 50%;}
 
 
                                     /* Bruce Wayne */
 
-.bruce                  {color: white; 
-                         font-family: Franklin Gothic Medium;
-                         font-size:50px;
-                         text-align: center;
-                         position: relative;
-                         bottom: 800px}
+.alleyway                               {background-image: url(Images/B&W-Bruce-Alleyway.png);
+                                         background-size: contain;
+                                         background-repeat:no-repeat;
+                                         background-size: 1400px;}
 
+.bruce                                  {color: white; 
+                                         font-family: Franklin Gothic Medium;
+                                         font-size:50px;
+                                         text-align: center;
+                                         position: relative;}
+
+.brucewaynetext                         {color: white; 
+                                         text-shadow: 2px 2px 5px #181818;
+                                         -webkit-text-stroke-color: #000000;
+                                         -webkit-text-stroke-width: 1px;
+                                         font-family: Franklin Gothic Medium;
+                                         font-size: 22px; 
+                                         position: absolute;
+                                         text-align: center;
+                                         bottom: 50%;}  
+  
                                     /* Alfred */
 
-.alfred-text             {color: white; 
-                          font-family: Franklin Gothic Medium;
-                          font-size:20px;
-                          text-align: center;
-                          top: 250px;}
+.alfred-text::first-letter              {color: white; font-size: 2em;}   
 
-.alfred                  {float:left}
+.alfred-text                            {color: white; 
+                                         font-family: Franklin Gothic Medium;
+                                         font-size:20px;
+                                         text-align: center;
+                                         top: 250px;}
+                      
+p-a::first-letter                       {font-size: 2em;display: block;}                        
 
-.alfred-title            {padding-left: 550px;
-                          color: white; 
-                          float:left;
-                          margin-bottom: 75px;
-                          font-family: franklin gothic medium;
-                          font-size: 2vw;}
+.alfred                                 {float:left}
 
-.back-arrow             {align-items: center;
-                         justify-content: center}                         
+.alfred-title                           {padding-left: 550px;
+                                         color: white; 
+                                         float:left;
+                                         margin-bottom: 75px;
+                                         font-family: franklin gothic medium;
+                                         font-size: 2vw;}
+
+.back-arrow                             {align-items: center;
+                                         justify-content: center}         
+                         
+                                    /* Joker */
+
+.joker-background                       {background-image: url(Images/joker-stairs.jpg);
+                                         background-size: 1500px;
+                                         background-repeat: no-repeat;
+                                         background-color: black;}
+
+
+.box                                    {border: 10px rgb(255, 255, 255);
+                                         display: block;
+                                         margin-left: auto;
+                                         margin-right: auto;
+                                         width: 200px;
+                                         outline: #000000 solid 10px;  
+                                         box-sizing: border-box;}
+
+.joker                                  {text-align: center;
+                                         color: #3cff00;
+                                         text-shadow:10px 10px 7px #000000;
+                                         font-family: franklin gothic medium;
+                                         font-size: 7vw;
+                                         margin: 25px;}
+
+.jokertext                              {text-align: center;
+                                         color: #3cff00;
+                                         text-shadow: 2px 2px 4px #000000;
+                                         font-family: franklin gothic medium;
+                                         font-size: 25px;
+                                         margin: 45px;}  
+
+                                    /* James Gordon */
+
+#jamesgordon                                
+                    {background-image:   linear-gradient(to left,
+                                       rgba(81, 81, 81, 0.6),
+                                       rgba(0, 0, 0, 1)),  
+                                         url(Images/James-Gordon-Bruce.png);}
+                           
+                                                 
+                    
