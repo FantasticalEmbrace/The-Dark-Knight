@@ -1,0 +1,39 @@
+    *                  {padding: 0;
+                        margin:0;
+                        box-sizing: border-box;}
+
+body                    {background-color: black;}
+
+.alfred-container       {display: grid;
+                         grid-auto-rows: minmax(auto);
+                         grid-auto-columns:minmax(auto) ;}
+
+.item                   {grid-template-columns: 100%;                     
+                         color:white;
+                         margin: 10px;border: 1px solid white;}
+
+.back-arrow             {display:grid; grid-column: 1; grid-row:1;
+                         grid-template-columns: 25%;
+                         width: 50px;}
+
+.rain                   {display:grid;
+                         margin:auto;
+                         margin-top:25px;
+                         width:625px;}
+   
+.alfred-text                            {margin-left: 50px;display: inline-block;
+                                         color: white; 
+                                         font-family: Franklin Gothic Medium;
+                                         font-size:20px;
+                                         text-align: center;
+                                         top: 250px;}                
+
+                      
+
+.alfred-title                           {display: grid;grid-template-columns: 75%;
+                                         color: white; 
+                                         text-align: center;
+                                         font-family: franklin gothic medium;
+                                         font-size: 2vw; border: 1px solid white;}
+
+.alfred-text::first-letter              {color: white; font-size: 2em;}   
