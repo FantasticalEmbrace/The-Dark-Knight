@@ -1,0 +1,96 @@
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="the-dark-knight.css">
+    <link rel="shortcut icon" href="Images/bat-symbol.jpeg" type="image/x-icon">
+    <title>Joe Chill</title>
+</head>
+<body id="chill-background">
+        <video autoplay muted loop poster="Images/joe-chill-batman-vs-superman.jpg" id="chill-video">
+            <source src="videos/thomas-and-martha-wayne-death.mp4" type="video/mp4">
+        </video>
+        <div><a href="the-dark-knight.html"><img src="Images/the-dark-knight-back-arrow.jpg" class="back-arrow"  alt="Back Arrow"></a></div>
+    <section class="chill-wrapper">
+            <h1>Joe Chill</h1>
+            <p class="p1">
+                Joe had unexpectedly received the message that Lew Moxon wanted to meet with him. He had 
+                wondered why someone of so much importance would request the assistance of a lowly street 
+                thug like himself. He had grown up poor without the guidance of a father. His mother told 
+                him that his dad was the one that she thought she would marry. His mother, Sandra Chilton, 
+                thought cocaine was adult candy and would often use it in the company of the many "loves 
+                of her life" and in Joe's presence when he was a child. His father had not even been 
+                interested in signing his birth certificate, and there was no trace of him in Gotham. 
+                However, Joe did not bother himself with petty things of the past. Although he had daddy 
+                issues when he was growing up, Joe was living in "the now," and "now" he had graduated 
+                from petty carjackings and shoplifting to being called on to work for one of the big timers. 
+                Joe could not fathom how Lew found him, knew his name, or why the mob boss would choose him, 
+                and Joe didn't care. He was just glad that he was finally stepping up in the world.
+            </p>            
+            <p class="p2">
+                As he walked into the room, Joe felt a mix of excitement and nervousness. There were guards 
+                outside and inside Lew's office. All of them were of various sizes and armed with different 
+                types of guns. Joe's hardened features were shadowed by his fedora in the dimly lit room. 
+                Donning a tattered sweater under a stained, tan trenchcoat and a pair of worn jeans, he made 
+                his way to the mob boss' desk. The room was silent as Joe and the mob boss glared at each other. 
+                Soon, a dance of power and persuasion would commence, and Lew's heavy influence and threatening 
+                presence would have the upper hand. Lew proposed a hit and offered two hundred and fifty thousand 
+                dollars if Joe would take out two people. Two critical people in Gotham. "I chose you because I 
+                want this to look like a simple robbery. Shoot 'em and take something off of 'em while you do it,
+                " said Lew in that thick Italian-American accent that has become commonplace in the metropolises 
+                of New York. Joe responded almost nervously, "I can't take a chance of double murder on two fifty. 
+                Make it one million, and we gotta deal." The mob boss returned nonchalantly, "Five hundred thousand,
+                 or I'll just find another guy, and you get silenced about the whole plan." Joe agreed to the 
+                 arrangement and walked out of the office, trying his best to conceal his excitement. 
+            </p>
+            <p class="p3">
+                Later that evening, while he was sitting in the abandoned gas station he slept in frequently, Joe was 
+                viewing the contents of the package given to him by Lew, which contained a Colt M1911A1 and photos of 
+                the couple and their young son as he was downing a fifth of cheap vodka. On the back of one of the images 
+                was written, "Thomas and Martha Wayne," he immediately gasped, at once realizing what was at stake if he
+                was caught. Joe second-guessed the hit because these were not only important people in Gotham, they were 
+                the most essential people in Gotham. As Joe was warming himself with the fire he had kindled on the bare 
+                concrete floor and was cooking some canned beans in a pot, he thought about his situation and realized it 
+                couldn't get much worse. If he got caught, then at least there would be a warm bed to sleep in with three 
+                meals daily. If he didn't get caught, he could live the rest of his life with at least a home and work that 
+                would pay well. His name would become renowned throughout the criminal underworld, and he would become rich 
+                doing more hits. "Yeah, a mob hitman," he thought as he smiled gleefully at the thought and how cool it 
+                sounded. He would never get the chance to get any honest work. No one would hire a man with a background 
+                like his. No one would even consider interviewing someone who earned his living by means of petty theft. 
+                Why, even the criminal big-timers usually didn't give him a chance. This was the most significant break he 
+                would ever get, and it was worth the possibility of going to prison to seize this once-in-a-lifetime opportunity.
+            </p>
+            <p class="p4">
+                Joe had been getting intel from some of Lew's men regarding the activity of the Waynes. He would go to public 
+                events and watch them from a distance at shopping centers and restaurants, but they were always surrounded by 
+                eyes. One night on the eve of a cold December night, one of Lew's men picked Joe up and told him they were going 
+                to the opera house. The henchmen dropped Joe off near the alleyway. He would hang out there, and they would park 
+                across the street and signal to him if they saw the Waynes alone so that he could make the hit. He sat in the cold 
+                alleyway, wet from previous snowfall, for what seemed to be an eternity. He was curled up by a dumpster between a 
+                side door to the opera house and the street it faced. Suddenly, the loud creak of that exact door echoed through 
+                the alleyway. He looked towards it from the shadow of the dumpster he sat beside, and there they were. The Waynes 
+                were coming out all alone. 
+            </p>
+           
+            <p class="p5">
+                The moment he had been waiting for was here, yet he hesitated. A sudden chilling fear ran from his head down his spine, 
+                and a shake was in his hands. He had only robbed but never taken life. Realization set in, and he felt ridiculous and knew 
+                that if he didn't get it together, he would be the one with a bullet in his chest. He gathered up the courage and picked
+                himself up. Joe stood up and stepped out of the shadows, and the family became aware of his presence. Their laughter and 
+                cheerful gait transformed into a slow falter accompanied by puzzled looks. Joe raised his gun, pointed it at Thomas Wayne, 
+                and demanded his wallet. Thomas gathered his family behind him and lunged at Joe; a shot rang out. 
+            </p>
+            <p class="p6">
+                Then, screams, and Thomas was on the ground, bleeding. Martha, attempting to disarm Joe, charged him. Her attempt failed, 
+                and Joe pointed the gun at her face from underneath the pearl necklace wrapped around her neck. She froze in horror. He 
+                slowly lowered the weapon to Martha's chest, and what sounded like thunder was heard throughout the alleyway. The child 
+                seemed to be in a state of shock. His face beheld a cold, lifeless stare, fixated on nothing but looking toward Joe. Joe 
+                thought to himself that it was enough. He was not paid to kill the boy. Besides that, even Joe couldn't stoop to that 
+                level, and what would a kid do anyway. Joe searched through Thomas' coat, grabbed his wallet, and ran to the mobster's 
+                car as fast as possible. He jumped in, and they sped off into the night towards Lew's stronghold.
+            </p>
+    </section>
+    
+</body>
+</html>
