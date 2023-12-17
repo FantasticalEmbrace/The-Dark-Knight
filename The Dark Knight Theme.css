@@ -198,28 +198,45 @@ ul li {
                                   /* The Dark Knight Tribute */
 
 .tribute-container {
-    overflow: hidden;
+    display: grid;
+    grid-template-rows: 25px 150px 150px 25px;
+    /* overflow: hidden; */
 }   
 
 #banner { 
     text-align: center;
     color:#7C8B9E;
     text-shadow: 2px 5px 5px black;
-    font-size: 7vh;
-    margin-top: 50px;
+    font-size: 6svh;
 }                                        
                                     
-.tribute-container iframe {
-    position:absolute;
+.tribute-container div {
     top:0;
     left:0;
-    width: 75%;
-    height: 75%;
+    width: 100%;
 }     
 
+.tribute-vid {
+    display: flex;
+    padding-top:40px;
+    justify-self: center;
+
+}
+
 iframe {
+    position: relative;
+    bottom: 150px;
+    border: 0;
     margin-left:13%;
     margin-top: 7%;
+    height: 75svh;
+    width: 75vw;
+}
+
+.tribute-footer {
+    position: relative;
+    top: 380px;
+    color: white;
 }
 
                                 /* Bruce Wayne */
@@ -234,8 +251,7 @@ iframe {
 }
 
 .bruce-container {
-    grid-template-columns: 1fr; 
-    grid-template-rows: 20px auto 140px;
+    grid-template-rows: 10px auto 140px;
     display: grid;
     height: 100vh;
     color: white;
@@ -517,9 +533,9 @@ iframe {
         }
     }
 
-    iframe {
+    /* iframe {
         margin-top:200px;
-    }
+    } */
 
      .wrapper{
             display: grid;
@@ -561,9 +577,9 @@ iframe {
             margin: 0 auto;
             }
 
-        iframe {
+        /* iframe {
                 margin-top:200px;
-            }
+            } */
 
             .column {
                 display: none;
@@ -654,9 +670,9 @@ iframe {
             .list-headings {
                 display: none;
             }
-            iframe {
+            /* iframe {
                 margin-top:200px;
-            }
+            } */
 
             .copyabsolute {
                 color: white;
