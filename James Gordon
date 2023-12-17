@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>James Gordon</title>
+    <link rel="stylesheet" href="the-dark-knight.css">
+</head>
+    <body>
+        <div class="gordon-container">
+            <header class="bruce-header">
+                <a href="the-dark-knight.html"><img src="Images/the-dark-knight-back-arrow.jpg" class="bruce-button" alt="Back Arrow"></a>
+            </header>
+            <img id="jamesgordon" src="Images/James-Gordon-Bruce.png" alt="James and Bruce">
+            <section class="gordon-section">
+                <h1>James Gordon</h1>
+            <p>
+                Detective Gordon and his partner Bullock were sitting at the station writing a report on the latest 
+                case they had closed. Bullock was eating as usual, and Gordon was typing while sipping freshly made 
+                coffee. They were going back and forth as they frequently did, joking around: Bullock with his 
+                obnoxious, brash humor, and Gordon with the casual smirk playing along dryly. The evening commanding 
+                officer yelled to them that they were needed. Someone had been murdered in an alleyway by the Monarch 
+                Theater. It was almost quitting time for them, so Bullock was a little bummed, but Gordon was ready 
+                to go. 
+            </p>
+                <br>
+            <p>
+                Several officers had already shown up when they arrived at the scene. Gordon noticed a kid with a 
+                traumatized look on his face that the EMTs were checking out. They walked into the crime scene and 
+                uncovered the faces while asking for the identities of the victims. The forensic officer informed them 
+                that it was Thomas and Martha Wayne. Harvey and James gasped in disbelief that Gotham's two most 
+                prominent people were on the ground before them, now forever gone. Both the detectives had encounters 
+                with the Waynes, and both were good interactions. They had done a lot for the city and were considered 
+                significant assets by most of the populace and humble caretakers to the city of Gotham. This was a sad 
+                day indeed for the troubled city.
+
+            </p>
+                <br>
+            <p>
+                While Harvey questioned officers and witnesses, Gordon walked over to the boy to check on him and speak 
+                positive words to bring at least a touch of light into the boy's now-darkened world. He also hoped to 
+                maneuver a question or two into the conversation to try and get a description of the perpetrator. First, 
+                he asked the EMT if he was injured, and after she said the boy wasn't, he opened up with the usual stupid 
+                icebreaker a cop always asks the murder victim's family, "How are you, son?" The boy said nothing; he just 
+                stared wide-eyed into the abyssal darkness. The EMT told him that he had not spoken to them either. Harvey 
+                walked over and said, "So far, all we got is some of the witnesses reported seeing the perp run from the 
+                alley and jump in a car with no tag. It sped off in that direction." Jim, as people who knew him best 
+                always called him, decided that he and Harvey would carry the boy back to the station themselves and 
+                attempt to talk to him on the way. They decided to go ahead and leave and hoped forensics could find 
+                something more out. 
+
+            </p>
+                <br>
+            <p>
+                With the kid in the back seat, they drove back to the precinct slowly and steadily. Harvey first offered 
+                him a donut, but they still got no response. Jim told the boy that they were going to do the best they 
+                could to find the man who murdered his parents and that anything he could say to them would help in finding 
+                him. Jim told him, "I'm very sorry for what has happened to your parents. They were good people." A brief 
+                pause occurred, and then Jim asked, "So, what's your name?" No matter what they did to reach him, the boy 
+                was in too great a shock.
+            </p>
+                <br>
+            <p>
+                They arrived, took the young one inside, and gave him a chair in their shared office. Jim set a hot cup of 
+                cocoa before the kid and put a warm blanket on his shoulders. Jim suddenly noticed a car pulling up outside, 
+                and a middle-aged man came racing in through the front door. He interacted with Harvey, and Jim could see 
+                Detective Bullock motioning for him to follow him. The man rushed into the office, beheld the boy 
+                affectionately, and whispered, "Bruce."  The moment the boy noticed the man, Jim witnessed the first reaction 
+                he saw the boy have that night: tears and a warm embrace.
+            </p>
+            </section>
+            <br>
+            <br>  
+            <footer class="bruce-footer">
+                @copy 2023
+            </footer>   
+        </div>                  
+    </body>
+</html>
