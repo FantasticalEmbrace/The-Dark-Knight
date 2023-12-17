@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Dark Knight</title>
+    <link rel="stylesheet" href="the-dark-knight.css">
+    <link rel="shortcut icon" href="Images/bat-symbol.jpeg" type="image/x-icon">
+</head>
+<body>
+        <div id=top-of-page>    
+            <div id="batswoop">
+            <h1><a id="logo" href="tribute.html">The Dark Knight</a></h1>
+            </div>
+                    <div class="column">
+                        <ul>
+                            <li>
+                                <div class="button">Characters</div>
+                                <ul>
+                                    <li>
+                                        <div class="button">Friends</div>
+                                        <ul>
+                                            <li><a href="bruce-wayne.html">Bruce Wayne</a></li>
+                                            <li><a href="Alfred-Penniworth.html">Alfred Pennyworth</a></li>
+                                            <li><a href="james-gordon.html">James Gordon</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <div class="button">Foes</div>
+                                        <ul>
+                                            <li><a href="joe-chill.html">Joe Chill</a></li>
+                                            <li><a href="Joker.html">Joker</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul> 
+                    </div>    
+        </div>
+        <ul class="wrapper">
+            <li class="list-headings">Friends</li>
+            <li class="list-headings">Foes</li>
+            <li class="list-headings">Powers/Purpose</li> 
+            <li class="table-content"><a href="bruce-wayne.html">Bruce Wayne<img class="image-size" src="Images/brucewaynegallery.jpg" alt="Bruce Wayne"></a></li>
+            <li class="table-content empty"></li>
+            <li class="text table-content">Batman's True Identity</li>
+            <li class="table-content"><a href="Alfred-Penniworth.html">Alfred Pennyworth<img class="image-size" src="Images/Alfred.jpeg" alt="Alfred Penniworth"></a></li>
+            <li class="table-content empty"></li>
+            <li class="text table-content">Bruce Wayne's Butler and Father Figure</li>
+            <li class="table-content"><a href="james-gordon.html">James Gordon<img class="image-size" src="Images/James-Gordon.jpeg" alt="James Gordon"></a></li>
+            <li class="table-content empty"></li>
+            <li class="text table-content">Commissioner of the Gotham City Police Department</li>
+            <li class="table-content"><a href="">Barbara Gordon/Oracle<img class="image-size" src="Images/Barbara-Gordon.jpg" alt="Barbara Gordon"></a></li>
+            <li class="table-content empty"></li>
+            <li class="text table-content">James Gordon's Daughter, and the Elite Hacker that has Helped Batman on Many Occasions</li>             
+            <li class="table-content"><a href="">Dick Grayson/<br>Robin/Boy Wonder/<br>NightWing<img class="image-size" src="Images/Nightwing_.jpg" alt="Dick Grayson"></a></li>
+            <li class="table-content empty"></li>
+            <li class="text table-content">Orphaned Acrobat/Bruce Wayne's Ward</li>
+            <li class="table-content"><a href="">Lucius Fox<img class="image-size" src="Images/lucius-fox.jpg" alt="Lucius Fox"></a></li>
+            <li class="table-content empty"></li>
+            <li class="text table-content">Trusted CEO of Wayne Enterprises</li>
+            <li class="table-content"><a href="">Zatara/Zatanna<img class="image-size" src="Images/Zatana.jpg" alt="Zatana"></a></li>
+            <li class="table-content empty"></li>
+            <li class="text table-content">Magic Wielding Best Child-Hood Friend of Bruce Wayne</li>
+            <li class="table-content"><a href="">Kal-El/Clark J. Kent/<br>Superman/Man of Steel/<br>Last Son of Krypton<img class="image-size" src="Images/Superman.jpg" alt="Superman"></a></li>
+            <li class="table-content empty"></li>
+            <li class="text table-content">Alien from the Planet Krypton/Super Strength, <br>Agility, Speed, Stamina Reflexes,<br> Longevity, Senses, and Durability 
+                Flight,X-Ray and Heat Vision, Wind and Freeze Breath</li>
+            <li class="table-content"><a href="">Damien Wayne/<br>Robin/NightWing<img class="image-size" src="Images/damien-wayne.jpg" alt="Damien Wayne"></a></li>
+            <li class="table-content empty"></li>
+            <li class="text table-content">Son of Talia al Ghul and Bruce Wayne/Batman, Master at Stealth, Martial Arts, and Hacking</li>
+            <li class="table-content"><a href="">Selina Kyle/<br>Catwoman<img class="image-size" src="Images/Selina-Kyle.jpeg" alt="Selina Kyle"></a></li>
+            <li class="table-content"><a href="">Selina Kyle/<br>Catwoman<img class="image-size" src="Images/Cat-Woman.jpg" alt="Cat Woman"></a></li>
+            <li class="text text table-content">Back and Forth Love Interest/Enemy of Batman/Cat Burglar</li>
+            <li class="table-content"><a href="">Talia al Ghul/<br>Leviathan/<br>Talia Head<img class="image-size" src="Images/talia-al-ghul.jpg" alt="Talia"></a></li>
+            <li class="table-content"><a href="">Talia al Ghul/<br>Daughter of the Demon's Head<img class="image-size" src="Images/Leviathan.jpg" alt="Leviathan"></a></li>
+            <li class="text table-content">Daughter of Ra's al Ghul, Master Swordsman and Martial Artist, Bruce Wayne's Ex-Wife and Mother of His Son Damien Wayne</li>
+            <li class="table-content empty"></li>
+            <li class="table-content"><a href="">Joe Chill<img class="image-size" src="Images/Joe-Chill.jpeg" alt="Joe Chill"></a></li>
+            <li class="text table-content">Murderer of Bruce Wayne's Parents</li>
+            <li class="table-content empty"></li>
+            <li class="table-content"><a href="Joker.html">Joker<img class="image-size" src="Images/Joker's-wild.jpg" alt="The Joker"></a></li>
+            <li class="text table-content">Sadistic Murderer that Dresses like a Clown</li>
+            <li class="table-content empty"></li>
+            <li class="table-content"><a href="">Edward Nigma/The Riddler<img class="image-size" src="Images/the-riddler.jpg" alt="The Riddler"></a></li>
+            <li class="text table-content">Super Genius that Uses Riddles to Commit Crimes and Throw Authorities Off His Tracks</li>
+            <li class="table-content empty"></li>
+            <li class="table-content"><a href="">Harvey Dent/Two-Face<img class="image-size" src="Images/Two-Face.jpg" alt="Two Face"></a></li>
+            <li class="text table-content">Criminal Mastermind that had Half his Face Burned off with Acid, Expert in Criminal Law</li>
+            <li class="table-content empty"></li>
+            <li class="table-content"><a href="">Bane<img class="image-size" src="Images/Bane.png" alt="Bane"></a></li>
+            <li class="text table-content">Pumps a Drug called Venom into his Veins to Become Super Strong, Super Intelligence</li>
+            <li class="table-content empty"></li>
+            <li class="table-content"><a href="">Lillian Isley/Poison Ivy<img class="image-size" src="Images/poison-ivy.jpg" alt="Poison Ivy"></a></li>
+            <li class="text table-content">Seductress that Can Control Plants and Who has a Poisonous Kiss</li>
+            <li class="table-content empty"></li>
+            <li class="table-content"><a href="">Oswalt Cobblepott/<br>Penguin<img class="image-size" src="Images/Penguin.jpg" alt="The Penguin"></a></li>
+            <li class="text table-content">A Man Born with Deformity's Similar to the Features of a Penguin/Mob Boss</li>
+            <li class="table-content empty"></li>
+            <li class="table-content"><a href="">Victor Fries/<br>Mr. Freeze<img class="image-size" src="Images/mr-freeze.jpeg" alt="Mr.Freeze"></a></li>
+            <li class="text table-content">Cryogenicist Stuck in a Cryo-suit Because of a Failed Experiment to Save his Wife from Disease. 
+                Uses a Freeze Gun, Super Human Strength, Durability, and Longevity Due to Suit</li>
+            <li class="table-content empty"></li>
+            <li class="table-content"><a href="">Jonathan Crane/ScareCrow<img class="image-size" src="Images/Scarecrow.jpg" alt="Scarecrow"></a></li>
+            <li class="text table-content">Super Genius that Uses Riddles to Commit Crimes and Throw Authorities Off His Tracks</li>
+            <li class="table-content empty"></li>
+            <li class="table-content"><a href="">Ra's al Ghul/The Demon/The Demon's Head<img class="image-size" src="Images/ra'as-al-ghul.jpeg" alt="Ra'as Al Ghul"></a></li>
+            <li class="text table-content">Leader of <br>The League of Shadows/<br>Assassin/<br>Immortality from the Lazarus Pit/<br>Master Swordsman <br>and Martial Artist</li>
+            </ul>      
+        <a id="backtotop" href="#top">Back to Top</a>
+        <div class="copy">&copy;2023</div> 
+     
+</body>
+</html>
