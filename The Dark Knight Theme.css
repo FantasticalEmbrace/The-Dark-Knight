@@ -1,162 +1,799 @@
-a:link                                  {text-decoration: none;}  
+* {
+    padding: 0; 
+    margin: 0;
+}
 
-a:visited                               {color:inherit ;}
+@font-face {
+    font-family: batman-forever;
+    src: url(batmfa__.ttf);
+}
 
-a:hover                                 {color: rgb(254, 254, 254);}
+a:visited {
+    color: inherit;
+}
 
-@font-face                              {font-family: "Batman Forever";
-                                         src: url("C:/Users/Drvia/Downloads/Fonts/batman_forever/batmfa__.ttf");}
+a:link {
+    text-decoration: none;
+    color: inherit;
+}
 
-#batswoop                               {height: 800px; width: 1450px;}
+a:hover {   
+    color: rgb(255, 255, 255) !important;
+}
 
-.container                              {position: relative;}                        
+img {
+    width: 100%;
+}
 
-.logo                                   {width: 750px; display: block; 
-                                         position:absolute;
-                                         bottom:100px;
-                                         left:400px}
+body {
+    box-sizing: border-box;
+    font-family: batman-forever;
+    background-color: black;
+    min-height: 100svh;
+}
 
-#backtotop                              {color: white;}
+footer {
+    margin-top:10px;
+}
 
-#table                                  {border: 1px solid blue; 
-                                         width: 100%; background-color: #000000;
-                                         font-size: 25px;}
-                        
-#headings                               {text-align: center;
-                                         color:rgb(52, 110, 197);
-                                         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                                         text-decoration: underline;
-                                         font-size: 30px;}
+#batswoop {
+    background-image: url(/Images/batswoop.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    min-height:750px;
+    padding:1rem;    
+}
 
-#grid .image-size                       {display: grid;
-                                         width: 200px; height: 250px}
+#top-of-page {
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
 
-.friendsandfoes                         {padding: 25px; color: rgb(5, 79, 190); 
-                                         font-family: Franklin Gothic Medium;
-                                         font-size: 75px; background-color: rgba(blue, blue, blue, 0.5)}
+#logo {
+    display: grid;
+    position:absolute;
+    font-size: 4vw;
+    top: 85vh;
+    left: 30vw;
+    color:#7C8B9E ;
+    text-shadow: 2px 5px 5px black;
+}
 
-td                                      {border:1px solid blue;}
+.column {
+    position:absolute;
+}
 
-.item                                   {box-sizing: border-box;
-                                         border: solid  red 1px; 
-                                         color: white;}                        
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 
-.group1                                 {color: rgb(217, 255, 0);
-                                         background-color: #151a1e; font-family: "Batman Forever"}
+li ~ a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: yellow;
+    background-color: black;
+    border: 5px solid white;
+}
 
-.group2                                 {color: rgb(52, 110, 197); font-family: "Batman Forever"}
+ul ul {
+    display: none;
+    position: absolute;
+    top: 0;
+    background-color: black;
+    left: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
-body                                    {background-color: black;
-                                         margin: 0;
-                                         padding: 0;
-                                         border: 0;
-                                         outline:0}
+li:hover > ul {
+    display: block;
+}
 
-.rain                                   {display:block;
-                                         margin:auto;
-                                         width:750px;}
+.button:hover {
+    color: white;
+}
 
-.tribute                                {display: block;
-                                         margin: auto;
-                                         width: 750px;
-                                         block-size: 500px;}
-                        
-.outline                                {outline: solid 1px black;}
+li ul li {
+    display: flex;
+    width: auto;
+    padding: 5px;
+    width:200px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+}
 
-.copy                                   {color: white;}
+li ul ul {
+    top: 0;
+    left: 100%;
+    text-align: center;
+}
 
-.text                                   {color: white; 
-                                         font-family: Franklin Gothic Medium;
-                                         font-size:20px;
-                                         position: absolute;
-                                         text-align: center;
-                                         bottom: 50%;}
+.ul {
+    border: 3px solid rgb(255, 255, 255);
+    color: yellow;
+    background-color: black;
+    font-size: 25px;
+}
 
-
-                                    /* Bruce Wayne */
-
-.alleyway                               {background-image: url(Images/B&W-Bruce-Alleyway.png);
-                                         background-size: contain;
-                                         background-repeat:no-repeat;
-                                         background-size: 1400px;}
-
-.bruce                                  {color: white; 
-                                         font-family: Franklin Gothic Medium;
-                                         font-size:50px;
-                                         text-align: center;
-                                         position: relative;}
-
-.brucewaynetext                         {color: white; 
-                                         text-shadow: 2px 2px 5px #181818;
-                                         -webkit-text-stroke-color: #000000;
-                                         -webkit-text-stroke-width: 1px;
-                                         font-family: Franklin Gothic Medium;
-                                         font-size: 22px; 
-                                         position: absolute;
-                                         text-align: center;
-                                         bottom: 50%;}  
-  
-                                    /* Alfred */
-
-.alfred-text::first-letter              {color: white; font-size: 2em;}   
-
-.alfred-text                            {color: white; 
-                                         font-family: Franklin Gothic Medium;
-                                         font-size:20px;
-                                         text-align: center;
-                                         top: 250px;}
-                      
-p-a::first-letter                       {font-size: 2em;display: block;}                        
-
-.alfred                                 {float:left}
-
-.alfred-title                           {padding-left: 550px;
-                                         color: white; 
-                                         float:left;
-                                         margin-bottom: 75px;
-                                         font-family: franklin gothic medium;
-                                         font-size: 2vw;}
-
-.back-arrow                             {align-items: center;
-                                         justify-content: center}         
-                         
-                                    /* Joker */
-
-.joker-background                       {background-image: url(Images/joker-stairs.jpg);
-                                         background-size: 1500px;
-                                         background-repeat: no-repeat;
-                                         background-color: black;}
+ul li {
+    border: 5px solid rgb(255, 255, 255);
+    color: yellow;
+    font-size: 20px;
+}
 
 
-.box                                    {border: 10px rgb(255, 255, 255);
-                                         display: block;
-                                         margin-left: auto;
-                                         margin-right: auto;
-                                         width: 200px;
-                                         outline: #000000 solid 10px;  
-                                         box-sizing: border-box;}
+.button {
+    color: yellow;
+    background-color: black;
+    padding: 10px;
+    font-size: 20px;
+}
 
-.joker                                  {text-align: center;
-                                         color: #3cff00;
-                                         text-shadow:10px 10px 7px #000000;
-                                         font-family: franklin gothic medium;
-                                         font-size: 7vw;
-                                         margin: 25px;}
+.wrapper {
+    display: grid;
+    grid-template-columns: 15fr 15fr 15fr;
+    max-width: 99.7%;
+    background-image: url(Images/gotham-city.jpg); 
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+    background-size: 100%;
+}
 
-.jokertext                              {text-align: center;
-                                         color: #3cff00;
-                                         text-shadow: 2px 2px 4px #000000;
-                                         font-family: franklin gothic medium;
-                                         font-size: 25px;
-                                         margin: 45px;}  
+.table {
+    min-width: 200px;
+}
 
-                                    /* James Gordon */
+.list-headings {
+    font-size:28px;
+    border: 1px solid blue;
+    padding: 15px;
+    color: yellow;
+    text-align: center;
+    text-decoration: underline;
+    list-style: none;
+}
 
-#jamesgordon                                
-                    {background-image:   linear-gradient(to left,
-                                       rgba(81, 81, 81, 0.6),
-                                       rgba(0, 0, 0, 1)),  
-                                         url(Images/James-Gordon-Bruce.png);}
-                           
-                                                 
+.table-content {
+    color: yellow;
+    border: 1px solid blue;
+    min-width: 100%;
+    font-size: 18px;
+    align-items: center;
+    min-height: 300px;
+    list-style: none;
+}
+
+.text {
+    display: grid;
+    text-align: center;
+    justify-items: center;
+} 
+
+.image-size {
+    display: grid;
+    width: 200px; 
+    height: 225px;
+    box-shadow: 5px 5px 10px 2px rgb(41, 41, 41), 1px 1px 1px 2px currentColor;
+}
+
+.back-arrow {
+    width: 50px; 
+}
+
+.copy {
+    color: white;
+    position: relative;
+    bottom: 0;
+}
+
+#backtotop {
+    color: white;
+}
+
+                                  /* The Dark Knight Tribute */
+
+.tribute-container {
+    overflow: hidden;
+}   
+
+#banner { 
+    text-align: center;
+    color:#7C8B9E;
+    text-shadow: 2px 5px 5px black;
+    font-size: 7vh;
+    margin-top: 50px;
+}                                        
+                                    
+.tribute-container iframe {
+    position:absolute;
+    top:0;
+    left:0;
+    width: 75%;
+    height: 75%;
+}     
+
+iframe {
+    margin-left:13%;
+    margin-top: 7%;
+}
+
+                                /* Bruce Wayne */
+
+.bruce-background {
+    background-image: url(Images/B&W-Bruce-Alleyway.png);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+}
+
+.bruce-container {
+    grid-template-columns: 1fr; 
+    grid-template-rows: 20px auto 140px;
+    display: grid;
+    height: 100vh;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+}
+
+.bruce-section {
+    text-align: center;
+    padding: 10px;
+    line-height: 1.3;
+    font-size: 20px;
+    position: relative;
+    top: 50px;
+}
+
+.bruce-section > h1 {
+    font-size: 50px;
+    position: relative;
+    bottom: 50px;
+}
+
+.bruce-footer {
+    align-self: end;
+}
+
+.bruce-button {
+    width: 50px;
+}
+
+                                /* Alfred */
+
+.alfred-container {
+    display: grid;
+    grid-template-columns: 1em 1fr;
+}
+    
+.alfred-body {
+    font-family: Franklin Gothic Medium;
+}
+
+.rain {
+    display: flex;
+    margin: auto;
+    width:625px;
+    margin-top:50px;
+    margin-bottom:45px;
+}
+               
+.alfred-text {
+    margin-left: 50px;
+    display: inline-block;
+    color: white; 
+    font-size:23px;
+    text-align: center;
+    height: 195px;
+    line-height: 1.3;
+}                
+ 
+.alfred-text::first-letter {
+        font-size: 2em;
+}   
+
+.alfred-title {
+    display: grid;
+    color: white; 
+    text-align: center;
+    font-family: franklin gothic medium;
+    font-size: 2vw;
+}  
+
+                                /* James Gordon */
+
+#jamesgordon {
+    width: 60vw;
+    position: relative;
+    justify-self: center;
+}
+
+.gordon-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20px auto;
+    height: 100vh;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+}
+
+.gordon-section {
+    text-align: center;
+    padding: 10px;
+    line-height: 1.3;
+    font-size: 23px;
+    position: relative;
+    top: 40px;
+    text-indent: 40px;
+}
+
+.gordon-section > h1 {
+    font-size: 50px;
+    position: relative;
+    bottom: 30px;
+}
+
+                                /* Joker */
                     
+.joker-background {
+    background-image: url(Images/joker-stairs.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+}
+
+.joker-container {
+    display: grid;
+    min-height: 100vh;
+}
+
+.box {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    outline: #000000 solid 10px;  
+    box-sizing: border-box;
+    bottom: 10px;
+}
+
+.joker {
+    position: relative;
+    text-align: center;
+    color: #3cff00;
+    text-shadow: 10px 10px 7px #000000;
+    font-family: franklin gothic medium;
+    font-size: 6vw;
+    margin-bottom: 40px;
+}
+
+.jokertext {
+    display: flex;
+    flex-direction: column;
+    text-indent: 5rem;
+    align-content: center;
+    text-align: center;
+    color: #3cff00;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: franklin gothic medium;
+    font-size: 25px;
+    padding: 50px;
+}  
+
+                                /* Joe Chill */
+
+#chill-video {
+    padding: 0;
+    height: 100svh;
+    width: 100svw;
+    position: fixed; 
+    left: 0;
+    right: 0;
+    top: 0; 
+    bottom: 0;
+    object-fit:cover;
+    z-index: -1;
+}
+
+.chill-wrapper {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr); 
+    column-gap: 50px;
+    text-indent: 35px;
+    color: rgb(255, 255, 255);
+    justify-items: center;
+    text-shadow: 2px 2px 2px black;
+    font-family: 'Franklin Gothic Medium', Arial;
+}
+
+.chill-wrapper > *:first-child {
+    font-size: 4svw;
+    margin: 50px;
+    text-align: center;
+    color: white;
+}
+
+.chill-wrapper > *:not(:first-child) {
+    display: grid;
+    line-height: 1.5;
+    font-size: 20px;
+    width: 90%;
+    height: auto;
+    
+}
+
+.p1 {
+    grid-area: 2 / 1 / 2 / 1;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: rgba(173, 173, 173, 0.050);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    box-shadow: 1px 1px white;
+}
+
+.p2 {
+    grid-area: 3 / 2 / 3 / 2 ;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(173, 173, 173, 0.050);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    box-shadow: 1px 1px white;
+}
+
+.p3 {
+    grid-area: 4 / 1 / 4 / 1 ;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(173, 173, 173, 0.050);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    box-shadow: 1px 1px white;
+}
+
+.p4 {
+    grid-area: 5 / 2 / 5 / 2;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(173, 173, 173, 0.050);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    box-shadow: 1px 1px white;
+}
+
+.p5 {
+    grid-area: 6 / 1 / 6 / 1;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(173, 173, 173, 0.050);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    box-shadow: 1px 1px white;
+}
+
+.p6 {
+    grid-area: 7 / 2 / 7 / 2;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(173, 173, 173, 0.050);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    box-shadow: 1px 1px white;
+}
+
+@media  (max-width:50%) {
+        img {
+            width:50%;
+            height: auto;
+        }
+    }
+
+/* 2xl */
+
+@media  (max-width: 1536px) {} 
+
+/* xl */
+
+@media  (max-width: 1280px) {
+        .wrapper {
+            width: 99%;
+        }
+    }
+
+    iframe {
+        margin-top:200px;
+    }
+
+     .wrapper{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr; 
+            background-image: url(Images/gotham-city.jpg);
+            background-size: cover;
+            width: 100%;    
+            height: 100%;    
+        }
+
+        /* section h1 {
+            font-size: 5em;
+        } */
+
+/* lg */
+
+@media  (max-width: 1024px) {
+        #batswoop 
+            {
+            display: none;
+            }
+        .wrapper{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr; 
+            text-align: center;
+            background-image: url(Images/gotham-city.jpg);
+            background-size: cover;
+            width: 100%;    
+            height: 100%;    
+        }
+            
+        .wrapper .div {
+            display: grid;
+            width: 90%;
+            justify-content: center;
+            }
+
+        img {
+            margin: 0 auto;
+            }
+
+        iframe {
+                margin-top:200px;
+            }
+
+            .column {
+                display: none;
+            }
+
+            #chill-video {
+                display: none;
+            }
+            #chill-background {
+                background-image: url(Images/joe-chill-batman-vs-superman.jpg)!important; 
+                background-size: cover; 
+                background-repeat:no-repeat;
+                background-attachment: fixed;
+                background-position: center;
+                height: 100svh;
+                width: 100vw;
+            }
+
+            .chill-wrapper {
+                display: grid;
+                width: 100%;
+                text-indent: 20px;
+                justify-content: center;
+            }
+
+            .chill-section > p {
+                display: block;
+                width: 85%;
+            }
+
+            .p1 {
+                height: auto;
+                padding: 20px;
+            }
+            
+            .p2 {
+                height: auto;
+                padding: 20px;
+            }
+            
+            .p3 {
+                height: auto;
+                padding: 20px;
+            }
+            
+            .p4 {
+                height: auto;
+                padding: 20px;
+            }
+            
+            .p5 {
+                height: auto;
+                padding: 20px;
+            }
+            
+            .p6 {
+                height: auto;
+                padding: 20px;
+            }
+
+            section h1 {
+                font-size: 5em;
+            }
+        }      
+
+/* md */
+
+@media  (max-width: 768px) {
+            #batswoop {
+                display:none;
+            }
+
+            .empty {
+                display: none;
+            }
+
+            .wrapper {
+                display: grid;
+                width: 99%;
+                text-align: center;
+                grid-template-columns: 1fr;
+            }
+            text-area {
+                word-wrap: break-word;
+                width: 99%;
+            }
+            
+            .list-headings {
+                display: none;
+            }
+            iframe {
+                margin-top:200px;
+            }
+
+            .copyabsolute {
+                color: white;
+                position: absolute;
+            }
+
+            #chill-video {
+                display: none;
+            }
+            #chill-background {
+                background-image: url(Images/joe-chill-batman-vs-superman.jpg)!important; 
+                background-size: cover; 
+                background-repeat:no-repeat;
+                background-attachment: fixed;
+                background-position: center;
+                height: 100svh;
+                width: 100vw;
+            }
+            .chill-wrapper {
+                display: block;
+                width: 100%;
+                grid-template-columns: 1fr; 
+                column-gap: 20px;
+                text-indent: 50px;
+                justify-items: center;
+                align-items: center;
+            }
+
+            .p1 {
+                height: auto;
+                width:100%;
+                padding: 20px;
+            }
+            
+            .p2 {
+                height: auto;
+                width: 100%;
+                padding: 20px;
+            }
+            
+            .p3 {
+                height: auto;
+                width: 100%;
+                padding: 20px;
+            }
+            
+            .p4 {
+                height: auto;
+                width: 100%;
+                padding: 20px;
+            }
+            
+            .p5 {
+                height: auto;
+                width: 100%;
+                padding: 20px;
+            }
+            
+            .p6 {
+                height: auto;
+                width: 100%;
+                padding: 20px;
+            }
+            section h1 {
+                font-size: 5em;
+            }
+        }   
+    
+/* sm */
+
+@media  (max-width: 640px) {
+        .wrapper {
+            display: grid;
+            grid-template-columns: 1fr;
+            width: 100%;
+        }
+
+        #batswoop {
+            display:none;
+        }
+
+        .grid img { 
+            width: 115px;
+        }
+
+        .list-headings {
+                display: none;
+        }
+
+        .empty {
+            display: none;
+        }
+        
+        .copyabsolute {
+            color: white;
+        }
+
+        .chill-wrapper { 
+            display: flex;
+            flex-direction: column;
+            width: 95%;
+            text-indent: 15px;
+        }
+
+        section h1 {
+            font-size: 5em;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+    }
+
+/* xs */
+
+@media  (max-width: 475px) {
+        #batswoop{
+            display:none;
+        }
+        .wrapper {
+            width: 99%;
+        }
+        .copyabsolute {
+            color: white;
+        }
+
+        section h1 {
+            font-size: 4svw;
+            margin: 50px;
+            text-align: center;
+    }
+}
+
+@media (min-aspect-ratio:16/9) {
+    #chill-video {
+    width: 100%;
+    height: 100%;
+    }
+}
